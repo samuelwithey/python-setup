@@ -1,0 +1,30 @@
+{
+    "python.showStartPage": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=110"
+    ],
+    "python.linting.banditEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Args": [
+        "--config=.flake8"
+    ],
+    "python.sortImports.args": [
+        "-rc",
+        "-sp isort.cfg"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+    // , "editor.formatOnSave": true
+}
